@@ -34,7 +34,6 @@ body {
 
 .card {
   flex-direction: column;
-  width: 375px;
   padding: 51px;
 }
 .card_sedans {
@@ -85,6 +84,9 @@ body {
 }
 
 .button:hover {
+  border: 1px solid var(--very-light-gray);
+  background-color: transparent;
+  color: var(--very-light-gray);
 }
 .attribution {
   align-self: end;
@@ -93,4 +95,12 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (max-width: 380px) {
+  .main_card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+  }
 }
