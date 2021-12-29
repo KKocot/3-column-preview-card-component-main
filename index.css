@@ -97,10 +97,14 @@ body {
   color: hsl(228, 45%, 44%);
 }
 @media (max-width: 750px) {
+  body {
+    justify-content: center;
+    width: auto;
+  }
   .main_card {
+    justify-content: center;
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin: 5px;
   }
 }
