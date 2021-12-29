@@ -96,11 +96,11 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media (max-width: 380px) {
+@media (max-width: 750px) {
   .main_card {
     display: flex;
     flex-direction: column;
     width: 350px;
-    margin: auto;
+    margin: 5px;
   }
 }
